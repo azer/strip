@@ -4,15 +4,15 @@
   "description": "Strip HTML Tags",
   "main": "index.js",
   "scripts": {
-    "test": "fox"
+    "test": "tap test.js"
   },
   "devDependencies": {
-    "fox": "*"
+    "tap": "~0.4.6"
   },
   "repository": {
-    "url": "git@github.com:azer\/strip.git",
+    "url": "git@github.com:azer/strip.git",
     "type": "git"
   },
-  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
   "license": "BSD"
 }
