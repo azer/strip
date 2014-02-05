@@ -20,3 +20,10 @@ test('html markup inside comments do not fail', function(t){
   t.equal(strip(html), 'this has markup in a <!--comment markup--> in it');
   t.end();
 });
+
+test('undefined html arg returns empty string', function(t){
+  var html;
+  t.equal(strip(html), '');
+  t.end();
+});
+
