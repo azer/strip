@@ -11,7 +11,7 @@ $ npm install strip
 ### Usage
 
 ```js
-strip('<p> hello <a href="http://foo.com/?q=123">world</a> </p>');
+strip('<p> Hello <a href="http://foo.com/?q=123">world</a> </p>');
 // => Hello World
 ```
 
